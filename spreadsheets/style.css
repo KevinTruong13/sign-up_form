@@ -72,12 +72,37 @@ select {
   }
 }
 /* Credit to Andy Bell at https: //piccalil.li/blog/a-modern-css-reset/ */
+body {
+  background-image: url("../img/cole_keister-palm_trees.jpeg");
+  display: flex;
+}
+
 header {
-  background-color: gray;
+  margin: 20vh 0 0;
+  background-color: rgba(128, 128, 128, 0.5);
+  display: flex;
+  justify-content: center;
+}
+header h1 {
+  display: inline-block;
 }
 
 .hawaii-icon {
+  display: inline-block;
   filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(327deg) brightness(103%) contrast(102%);
+}
+
+main {
+  flex: 2;
+  background-color: white;
+}
+
+.left-background-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: white;
 }
 
 /*# sourceMappingURL=style.css.map */
