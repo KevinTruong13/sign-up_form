@@ -1,9 +1,15 @@
 @use "modern_css_reset.css";
 
-@mixin flex-row-center {
+@mixin flex-row-center($main-axis: center, $cross-axis: center) {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+@mixin flex-column-center($main-axis: center, $cross-axis: center) {
+    @include flex-row-center($main-axis, $cross-axis);
+
+    flex-direction: column;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
@@ -14,8 +20,9 @@ body {
 }
 
 main {
+    @include flex-column-center();
     flex: 2;
-    background-color: white;
+    background-color: #FAFAFA;
 }
 
 .left-background-content {
@@ -28,7 +35,7 @@ main {
 }
 
 header {
-    @include flex-row-center;
+    @include flex-row-center();
 
     margin: 20vh 0 0;
     background-color: rgba(128, 128, 128, 0.5);
@@ -48,4 +55,8 @@ header {
 
 footer {
     @include flex-row-center();
+}
+
+form {
+    background-color: white;
 }
