@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
 /* Box sizing rules */
 *,
 *::before,
@@ -77,21 +78,6 @@ body {
   display: flex;
 }
 
-header {
-  margin: 20vh 0 0;
-  background-color: rgba(128, 128, 128, 0.5);
-  display: flex;
-  justify-content: center;
-}
-header h1 {
-  display: inline-block;
-}
-
-.hawaii-icon {
-  display: inline-block;
-  filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(327deg) brightness(103%) contrast(102%);
-}
-
 main {
   flex: 2;
   background-color: white;
@@ -103,6 +89,31 @@ main {
   flex-direction: column;
   justify-content: space-between;
   color: white;
+  font-size: 1.5rem;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20vh 0 0;
+  background-color: rgba(128, 128, 128, 0.5);
+}
+header h1 {
+  display: inline-block;
+  font-family: "Permanent Marker", cursive;
+}
+
+.hawaii-icon {
+  display: inline-block;
+  margin: 0 0.5rem 0 0;
+  filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(327deg) brightness(103%) contrast(102%);
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /*# sourceMappingURL=style.css.map */
