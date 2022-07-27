@@ -135,8 +135,22 @@ form h1 {
   font-size: 1.5rem;
 }
 
-.main-top p:first-child {
+.main-top p:first-child,
+form h1 {
   margin: 0 0 1rem;
+}
+
+form > div {
+  display: grid;
+  grid-template-columns: repeat(2, min(20rem, 30%));
+  gap: 1rem 5%;
+}
+
+form > div > div {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  flex-direction: column;
 }
 
 /*# sourceMappingURL=style.css.map */
