@@ -19,7 +19,7 @@
         <div class="main-top">
             <p>Have you ever dreamed of going to Hawaii?
                 <br>Well keep dreaming!
-                By filling up this fake form you can book your imaginariy ticket to Hawaii!
+                By filling up this fake form you can book your imaginary ticket to Hawaii!
             </p>
             <p>Sign up today!</p>
         </div>
@@ -28,7 +28,7 @@
             <div>
                 <div>
                     <label for="first-name">FIRST NAME</label>
-                    <input type="text" name="first-name" id="first-name">
+                    <input type="text" name="first-name" id="first-name" required>
                 </div>
                 <div>
                     <label for="last-name">LAST NAME</label>
@@ -36,7 +36,7 @@
                 </div>
                 <div>
                     <label for="email">EMAIL</label>
-                    <input type="email" name="email" id="email">
+                    <input type="email" name="email" id="email" required>
                 </div>
                 <div>
                     <label for="phone-number">PHONE NUMBER</label>
@@ -44,7 +44,9 @@
                 </div>
                 <div>
                     <label for="password">PASSWORD</label>
-                    <input type="password" name="password" id="password">
+                    <input type="password" name="password" id="password" required>
+                    <!-- Span contains error if passwords do not match -->
+                    <span class="error"></span>
                 </div>
                 <div>
                     <label for="password-confirm">CONFIRM PASSWORD</label>

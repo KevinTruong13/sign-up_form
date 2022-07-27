@@ -121,10 +121,10 @@ footer {
 form {
   background-color: white;
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
+  padding: 2rem 4rem 3rem;
 }
 
 .main-top,
-form,
 .main-bottom {
   padding: 2rem 4rem;
 }
@@ -148,7 +148,7 @@ form > div {
 
 form > div > div {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: stretch;
   flex-direction: column;
 }
@@ -167,8 +167,17 @@ input:focus {
   box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.1);
 }
 
+.invalid {
+  border-color: salmon;
+}
+
 button {
   background-color: bisque;
+}
+
+.error {
+  height: 1rem;
+  color: salmon;
 }
 
 /*# sourceMappingURL=style.css.map */
