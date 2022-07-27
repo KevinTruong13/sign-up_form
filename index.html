@@ -21,7 +21,7 @@
                 your imaginariy ticket to Hawaii!</p>
             <p>Sign up today!</p>
         </div>
-        <form>
+        <form action="https://httpbin.org/post" method="post" id="sign-up-form">
             <h1>Sign Up</h1>
             <div>
                 <div>
@@ -51,7 +51,10 @@
             </div>
         </form>
         <div class="main-bottom">
-
+            <button form="sign-up-form">Create Account</button>
+            <p>
+                Already have an account? <a href="">Log in</a>
+            </p>
         </div>
     </main>
     <script src="script.js"></script>
