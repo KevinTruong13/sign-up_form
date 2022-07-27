@@ -153,4 +153,22 @@ form > div > div {
   flex-direction: column;
 }
 
+label {
+  letter-spacing: 0.05rem;
+}
+
+input {
+  padding: 0.25rem 0.5rem;
+  border-radius: 6px;
+  border-color: rgba(128, 128, 128, 0.1);
+}
+
+input:focus {
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.1);
+}
+
+button {
+  background-color: bisque;
+}
+
 /*# sourceMappingURL=style.css.map */

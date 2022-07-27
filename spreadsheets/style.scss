@@ -89,3 +89,21 @@ form>div {
 form>div>div {
     @include flex-column-center(center, stretch);
 }
+
+label {
+    letter-spacing: .05rem;
+}
+
+input {
+    padding: .25rem .5rem;
+    border-radius: 6px;
+    border-color: rgba(128, 128, 128, 0.1);
+}
+
+input:focus {
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.1);
+}
+
+button {
+    background-color: bisque;
+}
