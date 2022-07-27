@@ -103,6 +103,7 @@ header h1 {
   display: inline-block;
   font-family: "Permanent Marker", cursive;
   font-size: 4rem;
+  text-shadow: repeat(4, 0 0 1 1px black);
 }
 
 .hawaii-icon {
@@ -186,6 +187,13 @@ button {
 .error {
   height: 1rem;
   color: salmon;
+}
+
+a,
+a:any-link {
+  color: lightsalmon;
+  text-decoration: none;
+  font-weight: bold;
 }
 
 /*# sourceMappingURL=style.css.map */
