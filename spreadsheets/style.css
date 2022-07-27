@@ -79,12 +79,8 @@ body {
 }
 
 main {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
   flex: 2;
-  background-color: #FAFAFA;
+  background-color: #F4F4F4;
 }
 
 .left-background-content {
@@ -122,6 +118,12 @@ footer {
 
 form {
   background-color: white;
+}
+
+.main-top,
+form,
+.main-bottom {
+  padding: 1rem 3rem;
 }
 
 /*# sourceMappingURL=style.css.map */
