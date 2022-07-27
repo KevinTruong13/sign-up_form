@@ -30,7 +30,6 @@ main {
     flex-direction: column;
     justify-content: space-between;
     color: white;
-    font-size: 1.5rem;
 }
 
 header {
@@ -42,12 +41,14 @@ header {
     h1 {
         display: inline-block;
         font-family: 'Permanent Marker', cursive;
+        font-size: 4rem;
     }
 }
 
 .hawaii-icon {
     display: inline-block;
     margin: 0 .5rem 0 0;
+    height: 4rem;
     // Makes icon white
     filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(327deg) brightness(103%) contrast(102%);
 }
