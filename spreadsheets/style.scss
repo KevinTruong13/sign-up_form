@@ -17,6 +17,7 @@
 body {
     background-image: url("../img/cole_keister-palm_trees.jpeg");
     display: flex;
+    font-family: sans-serif;
 }
 
 main {
@@ -65,5 +66,15 @@ form {
 .main-top,
 form,
 .main-bottom {
-    padding: 1rem 3rem;
+    padding: 2rem 4rem;
+}
+
+.main-top,
+form h1 {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.main-top p:first-child {
+    margin: 0 0 1rem;
 }
